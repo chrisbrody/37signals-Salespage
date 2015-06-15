@@ -15,7 +15,7 @@ section {
 }
 
 hr {
-	background: white url('img-hr.png') no-repeat scroll 50% 50%;
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
 	clear: both;
 	border: 0;
 	color: transparent;
@@ -30,12 +30,12 @@ sup {
 
 @font-face {
 	font-family: CrimsonSemiBold;
-	src: url('Crimson-Semibold.otf');	
+	src: url('../fonts/Crimson-Semibold.otf');	
 }
 
 @font-face {
 	font-family: CrimsonRoman;
-	src: url('Crimson-Roman.otf');	
+	src: url('../fonts/Crimson-Roman.otf');	
 }
 
 /* Nav */
@@ -199,7 +199,7 @@ header h5 {
 	display: block;
 	width: 143px;
 	height: 104px;
-	background: url('img-customers.png') no-repeat 0 0;
+	background: url('../img/img-customers.png') no-repeat 0 0;
 	text-indent: -1000em;
 }
 
