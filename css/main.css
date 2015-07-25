@@ -600,16 +600,165 @@ div.extra {
 	z-index: 1;
 }
 
-.pbox {
-	font-size: 14px;
-	line-height: 1.4em;
-	margin-top: 5px;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-	text-align: center;
-	border: 2px solid #ccc;
-	border-radius: 5px;
-	padding: 7px 0;
-	font-weight: bold;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e8e8e8));
-	color: #336699;
-}
+
+
+
+/*MEDIA QUERIES*/
+/* start max-width 1075px*/
+@media screen and (max-width: 1075px) {
+	.meet, 
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.arrow-right {
+		display: none;
+	}
+	section {
+		margin: 0 auto;
+	    width: 550px;
+	    padding: 0 5px;
+	}
+	header {
+	    display: inline-block;
+	    height: 100%;
+	    margin: 0 auto;
+	    width: 98%;
+	}
+	header h1 {
+		font-size: 42px;
+		margin: 0 5%;
+	}
+	footer {
+		width: 560px;
+	}
+	.products a {
+		left: 0;
+	    margin: 0 13px;
+	    width: 135px;
+	}
+	.customers h2,
+	.manifesto h2,
+	.rework h2 {
+		font-size: 32px;
+	}
+	.customers h2 {
+		margin-top: 15px;
+	}
+	.column, 
+	.column-end {
+	    width: 96%;
+	    padding: 0 2%;
+	}
+	.quotes h3 {
+		margin: 0;
+		font-size: 18px;
+	}
+	.book {
+		height: 425px;
+	}
+	.offerings .column, 
+	.offerings .column-end {
+		width: 260px;
+		margin-left: 0;
+	}
+
+
+} /* end max-width 700px*/
+
+
+/* start max-width 600px*/
+@media screen and (max-width: 600px) {
+	body {
+		background: #fff;
+	}
+	section {
+		margin: 0 auto;
+	    width: 430px;
+	    padding: 0 5px;
+	}
+	nav ul {
+		margin: 3px 0;
+		padding: 0;
+	}
+	nav li {
+		margin:0;
+	    padding: 5px 2px;
+	    font-size: 14px;
+	}
+	header {
+	    display: inline-block;
+	    height: 100%;
+	    margin: 0 auto;
+	    width: 98%;
+	}
+	header h1 {
+	    font-size: 42px;
+	}
+	.products {
+	    height: 800px;
+	    position: relative;
+    	top: -35px;
+	}
+	.products a {
+	    left: 90px;
+	    width: 200px;
+	    margin: 15px 0;
+	}
+	.customers {
+	    padding-top: 25px;
+	}
+	.customers h2 {
+		margin-top: 0;
+	}
+	.customers h2,
+	.manifesto h2 ,
+	.rework h2,
+	.offerings h2 {
+		font-size: 30px;
+	}
+	.rework {
+		display: inline-block;
+	    height: 100%;
+	    margin: 0 auto;
+	    width: 96%;
+	}
+	.book {
+		width: 100%;
+		height: 205px;
+	}
+	.book img {
+		height: 200px;
+	    display: block;
+	    margin: 0 auto;
+	}.quotes h3 {
+		margin: 15px;
+	}
+	.quotes p {
+		margin-bottom: 5px;
+	}
+	.main-offerings {
+	    width: 100%;
+	    height: 100%;
+	    clear: both;
+	    overflow: hidden;
+	    margin: auto;
+	    margin-bottom: 20px;
+	    display: inline-block;
+	}
+	.main-offerings a {
+    	width: 200px;
+	    margin: 5px auto;
+	    float: none;
+	    display: block;
+	}
+	.offerings .column,
+	.offerings .column-end {
+		width: 300px;
+	    float: none;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	footer {
+		width:430px;
+	}
+} /* end max-width 600px*/
